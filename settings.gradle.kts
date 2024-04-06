@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "plugin-webstorm"
+rootProject.name = "turbo-js-plugin"

@@ -1,36 +1,36 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>com.turbo.storm</id>
+    <id>com.turbo.js</id>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Turbo Storm</name>
+    <name>TurboJS</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="genomes.saddles.0u@icloud.com" url="https://github.com/ProductOfAmerica">ProductOfAmerica</vendor>
+    <vendor email="pucker.trifold.0q@icloud.com" url="https://github.com/ProductOfAmerica">ProductOfAmerica</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
-         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
-         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of
+    <![CDATA[ ]]> tag: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Turbo Storm enhances your development workflow by providing advanced code analysis tools and features that streamline your coding process. Key features include:<br>
+    TurboJS enhances your development workflow by providing advanced code analysis tools and features that streamline your coding process. Key features include:<br>
     <ul>
         <li>Real-time code analysis for optimized performance.</li>
         <li>Enhanced code navigation and search capabilities.</li>
         <li>Customizable code templates to speed up development.</li>
         <li>Integrated support for multiple programming languages.</li>
     </ul>
-    <p>Install Turbo Storm and turbocharge your IDE experience!</p>
+    <p>Install Turbo-JS and turbocharge your IDE experience!</p>
   ]]></description>
 
-    <!-- Product and plugin compatibility requirements.
-         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
+    <depends>JavaScript</depends>
 
-    <!-- Extension points defined by the plugin.
-         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <!-- https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-
+        <toolWindow id="TurboJS" icon="/icons/turbo-json.png" anchor="right"
+                    factoryClass="com.turbo.js.TurboJSToolWindowFactory"/>
     </extensions>
 </idea-plugin>
