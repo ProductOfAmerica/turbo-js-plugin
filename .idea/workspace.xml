@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a112c14f-0418-4b51-864e-eee4cb09ae59" name="Changes" comment="Init commit (basically)">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/folder-icon-blue-open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/folder-icon-blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/settings-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/turbo-json-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/turbo-json-20.png" afterDir="false" />
+    <list default="true" id="a112c14f-0418-4b51-864e-eee4cb09ae59" name="Changes" comment="Basic structure, need to finish parsing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/turbo/js/impl/TurboJsonFileListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/turbo/js/listener/FilesLoadedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/turbo/js/listener/FilesUpdatedListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/turbo/js/TurborepoToolWindowFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/turbo/js/TurborepoToolWindowFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/turbo-json.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,36 +95,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Run Plugin.executor": "Run",
-    "Gradle.turbo-js-plugin [:UIManagerColorKeys.main()].executor": "Run",
-    "Gradle.turbo-js-plugin [build].executor": "Run",
-    "Gradle.turbo-js-plugin [setupDependencies].executor": "Run",
-    "Gradle.turbo-plugin-webstorm [buildPlugin].executor": "Run",
-    "Gradle.turbo-plugin-webstorm [build].executor": "Run",
-    "Gradle.turbo-plugin-webstorm [setupDependencies].executor": "Run",
-    "Gradle.turbo-plugin-webstorm [signPlugin].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/eelwo/GitHub/turbo-js-plugin",
-    "onboarding.tips.debug.path": "C:/Users/eelwo/GitHub/turbo-plugin-webstorm/src/main/untitled/src/main/java/com/turbo/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Run Plugin.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.turbo-js-plugin [:UIManagerColorKeys.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.turbo-js-plugin [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.turbo-js-plugin [setupDependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.turbo-plugin-webstorm [buildPlugin].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.turbo-plugin-webstorm [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.turbo-plugin-webstorm [setupDependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.turbo-plugin-webstorm [signPlugin].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eelwo/GitHub/turbo-js-plugin&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/eelwo/GitHub/turbo-plugin-webstorm/src/main/untitled/src/main/java/com/turbo/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "C:\\Users\\eelwo\\.gradle"
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;C:\\Users\\eelwo\\.gradle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.turbo.js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\eelwo\GitHub\turbo-plugin-webstorm\src\main" />
     </key>
@@ -138,6 +136,9 @@
       <recent name="C:\Users\eelwo\GitHub\turbo-plugin-webstorm\src\main\resources\icons" />
       <recent name="C:\Users\eelwo\GitHub\turbo-plugin-webstorm\src\main\resources\META-INF" />
       <recent name="C:\Users\eelwo\GitHub\turbo-plugin-webstorm\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.turbo.js.listener" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Run Plugin">
@@ -232,12 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712444050256</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic structure, need to finish parsing">
+      <option name="closed" value="true" />
+      <created>1712551366094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712551366094</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit (basically)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init commit (basically)" />
+    <MESSAGE value="Basic structure, need to finish parsing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic structure, need to finish parsing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
