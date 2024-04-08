@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a112c14f-0418-4b51-864e-eee4cb09ae59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/turbo/js/TurborepoToolWindowFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/turbo-json.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a112c14f-0418-4b51-864e-eee4cb09ae59" name="Changes" comment="Init commit (basically)">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/folder-icon-blue-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/folder-icon-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/settings-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/turbo-json-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/turbo-json-20.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/Run IDE with Plugin.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Run IDE with Plugin.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/turbo/js/TurborepoToolWindowFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/turbo/js/TurborepoToolWindowFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/turbo-json.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +43,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="turbo-js-plugin" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="turbo-js-plugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -64,7 +64,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -98,43 +100,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Run Plugin.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.turbo-js-plugin [setupDependencies].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.turbo-plugin-webstorm [buildPlugin].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.turbo-plugin-webstorm [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.turbo-plugin-webstorm [setupDependencies].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.turbo-plugin-webstorm [signPlugin].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/eelwo/GitHub/turbo-js-plugin&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/eelwo/GitHub/turbo-plugin-webstorm/src/main/untitled/src/main/java/com/turbo/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Run Plugin.executor": "Run",
+    "Gradle.turbo-js-plugin [:UIManagerColorKeys.main()].executor": "Run",
+    "Gradle.turbo-js-plugin [build].executor": "Run",
+    "Gradle.turbo-js-plugin [setupDependencies].executor": "Run",
+    "Gradle.turbo-plugin-webstorm [buildPlugin].executor": "Run",
+    "Gradle.turbo-plugin-webstorm [build].executor": "Run",
+    "Gradle.turbo-plugin-webstorm [setupDependencies].executor": "Run",
+    "Gradle.turbo-plugin-webstorm [signPlugin].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/eelwo/GitHub/turbo-js-plugin",
+    "onboarding.tips.debug.path": "C:/Users/eelwo/GitHub/turbo-plugin-webstorm/src/main/untitled/src/main/java/com/turbo/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;kotlin-gradle-user-dirs&quot;: [
-      &quot;C:\\Users\\eelwo\\.gradle&quot;
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "C:\\Users\\eelwo\\.gradle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\eelwo\GitHub\turbo-plugin-webstorm\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eelwo\GitHub\turbo-js-plugin\src\main\resources\icons" />
       <recent name="C:\Users\eelwo\GitHub\turbo-plugin-webstorm\src\main\resources\icons" />
       <recent name="C:\Users\eelwo\GitHub\turbo-plugin-webstorm\src\main\resources\META-INF" />
       <recent name="C:\Users\eelwo\GitHub\turbo-plugin-webstorm\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Run Plugin">
+    <configuration name="turbo-js-plugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="turbo-plugin-webstorm [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,6 +209,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.turbo-js-plugin [build]" />
         <item itemvalue="Gradle.turbo-plugin-webstorm [signPlugin]" />
         <item itemvalue="Gradle.turbo-plugin-webstorm [buildPlugin]" />
       </list>
@@ -195,7 +224,20 @@
       <option name="presentableId" value="Default" />
       <updated>1712329441258</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init commit (basically)">
+      <option name="closed" value="true" />
+      <created>1712444050256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712444050256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init commit (basically)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init commit (basically)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

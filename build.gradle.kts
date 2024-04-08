@@ -13,6 +13,14 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    // JSON parsing library
+    implementation("org.json:json:20240303")
+
+    // YAML parsing library
+    implementation("org.yaml:snakeyaml:2.2")
+}
+
 // Configure Gradle IntelliJ Plugin
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellij {

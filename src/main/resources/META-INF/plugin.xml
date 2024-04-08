@@ -30,7 +30,7 @@
 
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow id="TurboJS" icon="/icons/turbo-json.png" anchor="right"
+        <toolWindow id="TurboJS" icon="/icons/turbo-json-20.png" anchor="right"
                     factoryClass="com.turbo.js.TurboJSToolWindowFactory"/>
     </extensions>
 </idea-plugin>
