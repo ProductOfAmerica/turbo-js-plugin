@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import static com.turbo.js.listener.FilesUpdatedListener.UPDATE_TOPIC;
+import static com.turbo.js.FilesUpdatedListener.UPDATE_TOPIC;
 
 public class TurboJsonFileListener implements AsyncFileListener {
     private final Project project;
@@ -26,10 +26,16 @@ public class TurboJsonFileListener implements AsyncFileListener {
         ArrayList<VirtualFile> files = new ArrayList<>();
 
         for (VFileEvent event : events) {
-            if (Objects.requireNonNull(event.getFile()).getName().equals("turbo.json")) {
-                files.add(event.getFile());
+            VirtualFile file = Objects.requireNonNull(event.getFile());
+            if (file.getName().equals("turbo.json")) {
+                System.out.println("adding turbo.json in async TurboJsonFileListener");
+                files.add(file);
             }
         }
+
+        // group by file type, use directory structure of grouped files to build hierarchy class.
+        // you need to define the class.
+        // do all of this.
 
         return !files.isEmpty() ? new ChangeApplier() {
             @Override

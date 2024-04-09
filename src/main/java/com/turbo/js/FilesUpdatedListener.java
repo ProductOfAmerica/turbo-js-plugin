@@ -1,4 +1,4 @@
-package com.turbo.js.listener;
+package com.turbo.js;
 
 import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.util.messages.Topic;
